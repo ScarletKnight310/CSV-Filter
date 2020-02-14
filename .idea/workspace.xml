@@ -211,21 +211,25 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1431" height="2" key="GridCell.Tab.0.bottom" timestamp="1581624831653">
+    <state width="1431" height="2" key="GridCell.Tab.0.bottom" timestamp="1581625748897">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="2" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1581624831653" />
-    <state width="1431" height="2" key="GridCell.Tab.0.center" timestamp="1581624831653">
+    <state width="1431" height="2" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1581625748897" />
+    <state width="1431" height="2" key="GridCell.Tab.0.center" timestamp="1581625748897">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="2" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1581624831653" />
-    <state width="1431" height="2" key="GridCell.Tab.0.left" timestamp="1581624831652">
+    <state width="1431" height="2" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1581625748897" />
+    <state width="1431" height="2" key="GridCell.Tab.0.left" timestamp="1581625748897">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="2" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1581624831652" />
-    <state width="1431" height="2" key="GridCell.Tab.0.right" timestamp="1581624831653">
+    <state width="1431" height="2" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1581625748897" />
+    <state width="1431" height="2" key="GridCell.Tab.0.right" timestamp="1581625748897">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="2" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1581624831653" />
+    <state width="1431" height="2" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1581625748897" />
+    <state x="496" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1581631860103">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="496" y="258" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1581631860103" />
   </component>
 </project>

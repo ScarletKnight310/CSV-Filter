@@ -14,6 +14,7 @@ public class Resource
     int status_Id;
 
 
+
     public Resource(String name, String replace_date,
                     String home_location, String status)
     {

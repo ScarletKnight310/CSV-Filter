@@ -1,9 +1,6 @@
 package base;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.function.Predicate;
 
@@ -14,8 +11,8 @@ public class ResourceHandler
     private static final int nonCirculating = 3;
     private static final int contained = 4;
 
-    private static ArrayList<Resource> full_list;
-    private static ArrayList<Resource> edited_list;
+    private ArrayList<Resource> full_list;
+    private ArrayList<Resource> edited_list;
 
     public ResourceHandler(String filename){
         try
@@ -28,7 +25,7 @@ public class ResourceHandler
         }
     }
 
-    public static ArrayList<Resource> readResourceCSVFile(String fileName) throws IOException {
+    public ArrayList<Resource> readResourceCSVFile(String fileName) throws IOException {
         FileReader fr = new FileReader(fileName);
         BufferedReader br = new BufferedReader(fr);
         ArrayList<Resource> result = new ArrayList<>();
@@ -51,22 +48,22 @@ public class ResourceHandler
         return result;
     }
 
-    public static void InCirculationAndNeedsReplacement(ArrayList<Resource> input)
+    public void InCirculationAndNeedsReplacement(ArrayList<Resource> input)
     {
         filter(full_list, edited_list, x -> (x.status_Id != nonCirculating && x.status_Id != contained && x.isOld()));
     }
 
-    public static void InCirculation(ArrayList<Resource> input)
+    public void InCirculation(ArrayList<Resource> input)
     {
         filter(full_list, edited_list, x -> (x.status_Id != nonCirculating && x.status_Id != contained));
     }
 
-    public static void NeedsReplacement()
+    public void NeedsReplacement()
     {
         filter(full_list, edited_list, x -> (x.isOld() && x.status_Id != contained));
     }
 
-    public static <I> void filter(ArrayList<I> original, ArrayList<I> new_list, Predicate<I> check)
+    public <I> void filter(ArrayList<I> original, ArrayList<I> new_list, Predicate<I> check)
     {
         ArrayList<I> result = new ArrayList<>();
         for(I x: original)
@@ -88,5 +85,10 @@ public class ResourceHandler
     {
         return edited_list;
     }
+
+//    public void SaveFile()
+//    {
+//        File
+//    }
 
 }
